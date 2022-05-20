@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.move2 {
+   overflow: hidden;
+   background-color: white;
+
+   height: 50px;
+   
+}
+.active a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .loss {
+      position: relative;
+      padding-left: 4px;
+      margin: 1px;
+      height: 20px;
+      font-size: 200%;
+      left: -90px;
+  }
+  .loss2 {
+      position: relative;
+      font-size: 200%;
+      
+      bottom: 20px;
+  }
+  .loss3 {}
+
+
+
+
+  .yello {
+      position: relative;
+      background-color: yellow;
+      height: 700px;
+  }
+
+  .moses3 {
+      padding: 30px;
+      text-align: center;
+      position: relative;
+      left: -190px;
+      bottom: -90px;
+  }
+  .success {
+    width: 190px;
+    height: 40px;
+    background-color: black;
+    color: aliceblue;
+  }
+  .text {
+    border: 0ch;
+    background: none;
+    border-bottom: 2px solid black;
+
+}
+.youtube {
+    position: relative;
+    width: 120px;
+    height: 200px;
+    
+    left: 700px;
+    bottom: 180px;
+    font-size: medium;
+}
+.roundedh {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    margin-bottom: 800px;
+    margin-top: -915px;
+    margin-left: -60px;
+
+    
+}
+.roundedd {
+
+    border-radius: 50%;
+    border: 4px calc();
+    border-radius: 0fr;
+    margin-bottom: 80px;
+    margin-left: 1200px;
+    margin-top: -80px;
+    border: 9px solid white;
+    color: rgb(34, 30, 30);
+}
+/* we star*/
+
+.text2 {
+    position: relative;
+    width:120px;
+    height: 40px;
+    background-color: yellow;
+    text-align: center;
+    align-items: center;
+    font-size: 24;
+    left: 600px;
+}
+.developer {
+    text-align: justify;
+    right: 40px;
+    
+}
+.class3 {
+    position: relative;
+    left: 900px;
+    bottom: 160px;
+    
+}
+.class4 {
+    position: relative;
+    left: 900px;
+    bottom: 170px;
+    border: 5px solid yellow;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    font-size: 50;
+    background-color: yellow;
+    
+}
+
+.volume {
+ 
+ padding-left: 200px;
+ position: relative;
+ bottom: 70px;
+ left: 80px;
+}
+.volume2 {
+    position: relative;
+    left: 280px;
+    bottom: 70px;
+}
+.klab {
+    width:150px;
+    height: 30px;
+    background-color: yellow;
+    border: 5px solid yellow;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    margin-left: 600px;
+    font-size: larger;
+}
+.volume3 {
+    position: relative;
+    left: 600px;
+    bottom: 140px;
+}
+.volume4 {
+    position: relative;
+    left: 600px;
+    bottom: 140px;
+}
+.volume5 {
+    position: relative;
+    left: 750px;
+    bottom: 210px;
+}
+.volume6 {
+    position: relative;
+    left: 750px;
+    bottom: 210px;
+}
+.klab2 {
+    position: relative;
+    width: 90px;
+    height: 200px;
+    color: yellow;
+    font-size: 300%;
+    
+    
+}
+.page {}
