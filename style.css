@@ -19,19 +19,27 @@ body {
   }
   .loss {
       position: relative;
-      padding-left: 4px;
+      padding-left: 1px;
       margin: 1px;
       height: 20px;
       font-size: 200%;
       left: -90px;
+      bottom: -5px;
   }
   .loss2 {
       position: relative;
       font-size: 200%;
       
-      bottom: 20px;
+      bottom: 15px;
   }
-  .loss3 {}
+  .loss3 {
+      position: relative;
+      font-size: 200%;
+      bottom: 43px;
+      left: 503px;
+
+      
+  }
 
 
 
@@ -116,13 +124,13 @@ body {
 }
 .class4 {
     position: relative;
-    left: 900px;
+    left: 950px;
     bottom: 170px;
-    border: 5px solid yellow;
+    border: 9px solid yellow;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    font-size: 50;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
     background-color: yellow;
     
 }
@@ -178,5 +186,84 @@ body {
     font-size: 300%;
     
     
+    
 }
-.page {}
+.page3 {
+    position: relative;
+    width: 90px;
+    height: 200px;
+    color: yellow;
+    font-size: 300%;
+    left: 600px;
+    bottom: 200px;
+}
+.moses {
+    position: relative;
+    color: yellow;
+    font-size: 300%;
+    left: 1100px;
+    bottom: 400px;
+}
+.moses2 {
+    position: relative;
+    color: yellow;
+    font-size: 300%;
+    left: 1100px;
+    bottom: 250px;
+    padding-left: 50px;
+
+}
+.class5 {
+    position: relative;
+    color: yellow;
+    font-size: 300%;
+    left: 600px;
+    bottom: 300px;
+    padding-left: 50px;
+}
+.class6 {
+    position: relative;
+    color: yellow;
+    font-size: 300%;
+    left: 1px;
+    bottom: 350px;
+    padding-left: 50px;
+
+}
+.class7 {
+    position: relative;
+    border: 5px solid yellow;
+    background-color: yellow;
+    width: 140px;
+    height: 40px;
+    font-size: 20;
+    left: 600px;
+    bottom: 60px;
+    padding-left: 50px;
+
+}
+.class8 {
+    position: relative;
+    left: 350px;
+    font-size: 30;
+    padding-left: 50px;
+}
+.class9 {
+    position: relative;
+    padding:4px;
+    padding-left: 50px;
+}
+/*.lock {
+    border-left: 5px solid yellow;
+    height: 500px;
+    position: relative;
+    left: 50%;
+    margin-left: 3px;
+    top: 0;
+    background-color: yellow;
+}
+*/
+.yello5 {
+    padding-left: 50px;
+} 
+
