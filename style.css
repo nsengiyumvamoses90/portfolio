@@ -266,4 +266,245 @@ body {
 .yello5 {
     padding-left: 50px;
 } 
+.rock3 {
+    position: relative;
+    left: 790px;
+    bottom: 1200px;
+}
+.rock4 {
+    position: relative;
+    padding-left: 50px;
+    bottom: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20;
+    
+}
+.rock5 {
+    position: relative;
+    width: 50%;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    bottom: 750px;
+    padding-left: 50px;
+}
+.rock6 {
+    position: relative;
+    
+    width: 120px;
+    height: 50px;
+    bottom: 300px;
+    left: 700px;
+}
+.rock7 {
+    position: relative;
+    width: 90px;
+    height: 30px;
+    background-color: yellow;
+    font-size: 20;
+    bottom: 200px;
+    left: 700px;
+
+}
+.rock8 {
+    position: relative;
+    font-size: 30;
+    bottom: 200px;
+    left: 600px;
+
+}
+.rock9 {
+    position: relative;
+    font-size: 20;
+    bottom: 200px;
+    left: 600px;
+    border: none;
+    border-bottom: 5px solid yellow;
+    background: none;
+}
+.fix {
+    position: relative;
+    font-size: 20;
+    bottom: 279px;
+    left: 700px;
+    color: rgba(0, 0, 0, 4);
+
+}
+.fix2 {
+    position: relative;
+    font-size: 20;
+    bottom: 350px;
+    left: 890px;
+    color: rgba(0, 0, 0, 4);
+
+}
+.fix3 {
+    position: relative;
+    font-size: 20;
+    bottom: 420px;
+    left: 1070px;
+    color: rgba(0, 0, 0, 4);
+
+}
+.fix4 {
+    position: relative;
+    font-size: 20;
+    bottom: 490px;
+    left: 1290px;
+    color: rgba(0, 0, 0, 4);
+
+}
+.fix5 {
+    position: relative;
+    bottom: 500px;
+    left: 590px;
+}
+.fix6 {
+    position: relative;
+    bottom: 500px;
+    left: 610px;
+}
+.fix7 {
+    position: relative;
+    bottom: 500px;
+    left: 630px;
+}
+.fix8 {
+    position: relative;
+    bottom: 195px;
+    left: -335px;
+}
+.fix9 {
+    position: relative;
+    bottom: 195px;
+    left: -318px;
+}
+.codex {
+    position: relative;
+    bottom: 480px;
+    left: 1246px;
+}
+.codex2 {
+    position: relative;
+    width: 1500PX;
+    height: 400PX;
+    background-color: rgb(202, 193, 193);
+    bottom: 300px;
+    left: 90px;
+}
+.codex3 {
+    position: relative;
+    width: 120px;
+    height: 60px;
+    border: 5px solid yellow;
+    background-color: yellow;
+    font-size: 20;
+    margin-bottom: 20px;
+    left: 600px;
+    bottom: 150px;
+
+}
+.codex4 {
+    position: relative;
+    background-color: yellow;
+    width: 60px;
+    height: 50px;
+    border: 2px solid yellow;
+    font-size: 15;
+    left: 700px;
+    bottom: 200px;
+}
+.codex5 {
+    position: relative;
+    left: 650px;
+    bottom: 200px;
+}
+.codex6 {
+    position: relative;
+    bottom: 2px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
+    padding: 36px 20px;
+    width: 400px;
+    height: 21.594px;
+    align-items: center;
+    
+}
+.codex8 {
+    position: relative;
+    bottom: 2px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+    color: rgba(0, 0, 0, 0.4);
+    padding: 36px 20px;
+    width: 400px;
+    height: 21.594px;
+    align-items: center;
+    bottom: 150px;
+    left: 650px;
+}
+.codex0 {
+        position: relative;
+        
+        border: none;
+        background-color: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+        
+    
+        padding: 36px 20px;
+        width: 400px;
+        height: 21.594px;
+        align-items: center;
+        bottom: 100px;
+        left: 630px;
+        font-size: 20;
+    }
+    .codex9 {
+        position: relative;
+        background-color: none;
+        border: none;
+        font-size: 20;
+        color: rgba(0, 0, 0, 0.4);
+    
+    }
+    .wap2 {
+        position: relative;
+        bottom: 400px;
+        left: 990px;
+    }
+    .wap3 {
+        position: relative;
+        height: 600px;
+        width: 1600px;
+        background-color: #dddddd;
+        bottom: 350px;
+    }
+    .wap4 {
+        position: relative;
+        background-color: yellow;
+        border: 5px solid yellow;
+        width: 120px;
+        height: 40px;
+        font-size: 15;
+        right: -600px;
+        top: 90px;
+    }
+    .wap5 {
+        position: relative;
+        right: -500px;
+        top: 80px;
+        font-size: 40;
+    }
+    .wap6 {
+        position: relative;
+        width: 1600px;
+        height: 800px;
+        background-color: yellow;
+        left: 0px;
+        bottom: 350px;
+    }
+
+
+
+
+
 
