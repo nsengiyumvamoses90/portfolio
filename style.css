@@ -1,6 +1,8 @@
 body {
+    position: relative;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 .move2 {
    overflow: hidden;
@@ -17,26 +19,27 @@ body {
     text-decoration: none;
     font-size: 17px;
   }
-  .loss {
+  .facebook {
       position: relative;
-      padding-left: 1px;
-      margin: 1px;
-      height: 20px;
-      font-size: 200%;
-      left: -90px;
-      bottom: -5px;
-  }
-  .loss2 {
-      position: relative;
-      font-size: 200%;
+      font-size: 30;
+      padding-right: 5px;
+      left: 60px;
+      bottom: -9px;
       
-      bottom: 15px;
   }
-  .loss3 {
-      position: relative;
-      font-size: 200%;
-      bottom: 43px;
-      left: 503px;
+  .twitter{
+    position: relative;
+    font-size: 30;
+    padding-right: 5px;
+    left: 99px;
+    bottom: 20px;
+  }
+  .instagram {
+    position: relative;
+    font-size: 30;
+    padding-right: 5px;
+    left: 600px;
+    bottom: 48px;
 
       
   }
@@ -46,8 +49,10 @@ body {
 
   .yello {
       position: relative;
-      background-color: yellow;
+      background-color: #ffc107;
       height: 700px;
+      
+      
   }
 
   .moses3 {
@@ -88,423 +93,603 @@ body {
 
     
 }
+.arrow {
+    position: relative;
+    left: -50px;
+    bottom: 180px;
+    
+}
 .roundedd {
 
     border-radius: 50%;
     border: 4px calc();
     border-radius: 0fr;
     margin-bottom: 80px;
-    margin-left: 1200px;
+    margin-left: 1000px;
     margin-top: -80px;
     border: 9px solid white;
     color: rgb(34, 30, 30);
 }
-/* we star*/
-
+/* this is next page*/
 .text2 {
     position: relative;
-    width:120px;
-    height: 40px;
-    background-color: yellow;
-    text-align: center;
     align-items: center;
-    font-size: 24;
-    left: 600px;
+    margin: 60px 500px;
+    background-color: yellow;
+    border: 5px solid yellow;
+    width: 90px;
+    height: 30px;
 }
-.developer {
-    text-align: justify;
-    right: 40px;
-    
+.pagee {
+    padding-left: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
-.class3 {
-    position: relative;
-    left: 900px;
-    bottom: 160px;
-    
+.max {
+    padding-left: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 .class4 {
-    position: relative;
-    left: 950px;
-    bottom: 170px;
-    border: 9px solid yellow;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    font-size: 50px;
-    background-color: yellow;
+    position: absolute;
+ float: left;
+ text-align: right;
+
+ padding-left: 1000px;
+ bottom: 150px;
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+}
+.log {
+    position: absolute;
+     text-align: right;
+    float: left;
+    width: 50%;
+    padding-left: 350px;
+    bottom: 90px;
+    
     
 }
 
-.volume {
- 
- padding-left: 200px;
- position: relative;
- bottom: 70px;
- left: 80px;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+
+
 }
-.volume2 {
+.grid-item {
+ text-align: center;
+ padding: 10px;
+
+ font-size: 15px;
+}
+/* what I doo*/
+.max1 {
     position: relative;
-    left: 280px;
-    bottom: 70px;
-}
-.klab {
-    width:150px;
-    height: 30px;
+    align-items: center;
+    margin: 60px 500px;
     background-color: yellow;
     border: 5px solid yellow;
-    text-align: center;
-    align-self: center;
-    align-items: center;
-    margin-left: 600px;
-    font-size: larger;
+    width: 90px;
+    height: 10px;
 }
-.volume3 {
-    position: relative;
-    left: 600px;
-    bottom: 140px;
+.max2 {
+    font-size: 40;
 }
-.volume4 {
-    position: relative;
-    left: 600px;
-    bottom: 140px;
-}
-.volume5 {
-    position: relative;
-    left: 750px;
-    bottom: 210px;
-}
-.volume6 {
-    position: relative;
-    left: 750px;
-    bottom: 210px;
-}
+/* This is what we can help you*/
 .klab2 {
     position: relative;
-    width: 90px;
-    height: 200px;
+    font-size: 50;
     color: yellow;
-    font-size: 300%;
-    
-    
-    
 }
 .page3 {
     position: relative;
-    width: 90px;
-    height: 200px;
-    color: yellow;
-    font-size: 300%;
-    left: 600px;
-    bottom: 200px;
+    font-size: 50;
+    color: yellow;  
 }
-.moses {
+.max4 {
     position: relative;
+    font-size: 50;
     color: yellow;
-    font-size: 300%;
-    left: 1100px;
-    bottom: 400px;
 }
-.moses2 {
+.max5 {
     position: relative;
+    font-size: 50;
     color: yellow;
-    font-size: 300%;
-    left: 1100px;
-    bottom: 250px;
-    padding-left: 50px;
-
 }
 .class5 {
-    position: relative;
-    color: yellow;
-    font-size: 300%;
-    left: 600px;
-    bottom: 300px;
-    padding-left: 50px;
+position: relative;
+font-size: 50;
+color: yellow;
 }
 .class6 {
     position: relative;
+    font-size: 50;
     color: yellow;
-    font-size: 300%;
-    left: 1px;
-    bottom: 350px;
-    padding-left: 50px;
-
-}
-.class7 {
-    position: relative;
-    border: 5px solid yellow;
-    background-color: yellow;
-    width: 140px;
-    height: 40px;
-    font-size: 20;
-    left: 600px;
-    bottom: 60px;
-    padding-left: 50px;
-
-}
-.class8 {
-    position: relative;
-    left: 350px;
-    font-size: 30;
-    padding-left: 50px;
-}
-.class9 {
-    position: relative;
-    padding:4px;
-    padding-left: 50px;
-}
-/*.lock {
-    border-left: 5px solid yellow;
-    height: 500px;
-    position: relative;
-    left: 50%;
-    margin-left: 3px;
-    top: 0;
-    background-color: yellow;
-}
-*/
-.yello5 {
-    padding-left: 50px;
-} 
-.rock3 {
-    position: relative;
-    left: 790px;
-    bottom: 1200px;
-}
-.rock4 {
-    position: relative;
-    padding-left: 50px;
-    bottom: 800px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20;
+    }
+    .grid-container1 {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        gap: 5px;
     
-}
-.rock5 {
-    position: relative;
-    width: 50%;
-    height: 20px;
-    background-color: yellow;
-    border-radius: 50%;
-    bottom: 750px;
-    padding-left: 50px;
-}
-.rock6 {
-    position: relative;
     
-    width: 120px;
-    height: 50px;
-    bottom: 300px;
-    left: 700px;
-}
-.rock7 {
-    position: relative;
-    width: 90px;
-    height: 30px;
-    background-color: yellow;
-    font-size: 20;
-    bottom: 200px;
-    left: 700px;
-
-}
-.rock8 {
-    position: relative;
-    font-size: 30;
-    bottom: 200px;
-    left: 600px;
-
-}
-.rock9 {
-    position: relative;
-    font-size: 20;
-    bottom: 200px;
-    left: 600px;
-    border: none;
-    border-bottom: 5px solid yellow;
-    background: none;
-}
-.fix {
-    position: relative;
-    font-size: 20;
-    bottom: 279px;
-    left: 700px;
-    color: rgba(0, 0, 0, 4);
-
-}
-.fix2 {
-    position: relative;
-    font-size: 20;
-    bottom: 350px;
-    left: 890px;
-    color: rgba(0, 0, 0, 4);
-
-}
-.fix3 {
-    position: relative;
-    font-size: 20;
-    bottom: 420px;
-    left: 1070px;
-    color: rgba(0, 0, 0, 4);
-
-}
-.fix4 {
-    position: relative;
-    font-size: 20;
-    bottom: 490px;
-    left: 1290px;
-    color: rgba(0, 0, 0, 4);
-
-}
-.fix5 {
-    position: relative;
-    bottom: 500px;
-    left: 590px;
-}
-.fix6 {
-    position: relative;
-    bottom: 500px;
-    left: 610px;
-}
-.fix7 {
-    position: relative;
-    bottom: 500px;
-    left: 630px;
-}
-.fix8 {
-    position: relative;
-    bottom: 195px;
-    left: -335px;
-}
-.fix9 {
-    position: relative;
-    bottom: 195px;
-    left: -318px;
-}
-.codex {
-    position: relative;
-    bottom: 480px;
-    left: 1246px;
-}
-.codex2 {
-    position: relative;
-    width: 1500PX;
-    height: 400PX;
-    background-color: rgb(202, 193, 193);
-    bottom: 300px;
-    left: 90px;
-}
-.codex3 {
-    position: relative;
-    width: 120px;
-    height: 60px;
-    border: 5px solid yellow;
-    background-color: yellow;
-    font-size: 20;
-    margin-bottom: 20px;
-    left: 600px;
-    bottom: 150px;
-
-}
-.codex4 {
-    position: relative;
-    background-color: yellow;
-    width: 60px;
-    height: 50px;
-    border: 2px solid yellow;
-    font-size: 15;
-    left: 700px;
-    bottom: 200px;
-}
-.codex5 {
-    position: relative;
-    left: 650px;
-    bottom: 200px;
-}
-.codex6 {
-    position: relative;
-    bottom: 2px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
-    color: rgba(0, 0, 0, 0.4);
-    padding: 36px 20px;
-    width: 400px;
-    height: 21.594px;
-    align-items: center;
+    }
+    .grid-item1 {
+     text-align: center;
+     padding: 10px;
     
-}
-.codex8 {
-    position: relative;
-    bottom: 2px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
-    color: rgba(0, 0, 0, 0.4);
-    padding: 36px 20px;
-    width: 400px;
-    height: 21.594px;
-    align-items: center;
-    bottom: 150px;
-    left: 650px;
-}
-.codex0 {
+     font-size: 15px;
+    }
+    /* this is next */
+    .class7 {
+    
         position: relative;
-        
-        border: none;
-        background-color: none;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.4);
-        
-    
-        padding: 36px 20px;
-        width: 400px;
-        height: 21.594px;
         align-items: center;
-        bottom: 100px;
-        left: 630px;
+        background-color: yellow;
+        width: 60px;
+        height: 20px;
+        text-align: center;
+        margin: 60px 600px;
+    }
+    .class8 {
+        position: relative;
+        align-items: center;
+        text-align: center;
         font-size: 20;
     }
-    .codex9 {
+    .class9 {
+        margin: 50px;
+    }
+    .contain2 {
         position: relative;
-        background-color: none;
-        border: none;
-        font-size: 20;
-        color: rgba(0, 0, 0, 0.4);
+        margin: 0px 500px;
+        bottom: 160px;
+    }
+    .rock5 {
+        position: relative;
+        margin: 68px;
+        top: -500px;
     
     }
-    .wap2 {
+    .contain3 {
         position: relative;
-        bottom: 400px;
-        left: 990px;
+        left: -450px;
     }
-    .wap3 {
-        position: relative;
-        height: 600px;
-        width: 1600px;
-        background-color: #dddddd;
-        bottom: 350px;
+    /* this is my skills */
+    .wrapper {
+        width: 40%;
+        min-width: 570px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
-    .wap4 {
+    .container {
+        width: 100%;
+        background-color: white;
+        padding: 30px 30px 50px;
+        border-radius: 10px;
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    }
+    .container * {
+        font-family: sans-serif;
+        color: black;
+        font-weight: 500;
+    }
+    h2 {
+        margin-bottom: 50px;
+        font-size: 33px;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    .details {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .bar{
         position: relative;
+        border: 2px solid rgb(255, 187, 0);
+        border-radius: 20px;
+    }
+    .bar div{
+        position: relative;
+        width: 50%;
+        height: 9px;
+        border-radius: 10px;
+        background-color: rgb(255, 187, 0);;
+    }
+    .bar div#html-bar{
+        width: 90%;
+    }
+    .bar div#js-bar{
+        width: 60%;
+    }
+    .win {
+        position: relative;
+        text-align: center;
+        align-items: center;
+        width: 120px;
+        height: 120px;
+        align-items: center;
+        bottom: 500px;
+        margin: 0px 500px;
+        
+    }
+    .win .hover {
+        position: relative;
+        background-color: black;
+    }
+    .win2 {
+        
+        align-items: center;
+        text-align: center;
+        width: 90px;
+        height: 30px;
         background-color: yellow;
         border: 5px solid yellow;
-        width: 120px;
-        height: 40px;
-        font-size: 15;
-        right: -600px;
-        top: 90px;
+        margin-top: -500px;
+        margin-left: 600px;
+        
     }
-    .wap5 {
+    .win3 {
         position: relative;
-        right: -500px;
-        top: 80px;
         font-size: 40;
     }
-    .wap6 {
-        position: relative;
-        width: 1600px;
-        height: 800px;
-        background-color: yellow;
-        left: 0px;
-        bottom: 350px;
+    .win4 {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 2px;
+        left: 20px;
+        padding-left: -9px;
+    
+    
     }
+    .win5 {
+     position: relative;
+     text-align: center;
+     padding: 2px;
+     padding-left: -20px;
+     font-size: 20px;
+    }
+    .win6 {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto auto auto  ;
+        
+        
+    
+    
+    }
+    .win7 {
+        position: relative;
+     text-align: center;
+     right: -90px;
+    
+    
+    }
+    .win8 {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-top: 30px;
+        
+    
+    
+    }
+    .win9 {
+        position: relative;
+     text-align: center;
+     right: -90px;
+    
+    
+    
+    }
+    /* portfolio*/
+    .laptop3 {
+        width: 1500px;
+        height: 500px;
+        background-color: rgb(190, 189, 181);
+        margin-top: 20px;
 
 
+    }
+    
+    
+        
 
+    .laptop4 {
+        position: relative;
+        
+        color: whitesmoke;
+        bottom: 400px;
+        align-items: center;
+        text-align: center;
+        
+    
+    }
+    .laptop5 {
+        position: relative;
+        align-items: center;
+        text-align: center;
+        bottom: 350px;
+        widows: 60px;
+        height: 60px;
+        box-sizing: border-box;
+        border-style: yellow;
 
+    }
+    .laptop6{
+        position: relative;
+        width: 40px;
+        height: 20px;
+        background-color: yellow;
+        margin: 20px 60px;
+    }
+.laptop7 {
+    position: relative;
+    margin:  20px 60px;
+    font-size: 20;
+}
+.laptop8 {
+    position: relative;
+    margin: 20px 60px;
+    font-size: 20;
+    color: rgb(220, 220, 212);
+}
+.laptop9{
+    position: relative;
+    color: rgb(220, 220, 212);
+    font-size: 20;
+    bottom: 50px;
+    margin-left: 80px;
 
+}
+.apple {
+    position: relative;
+    width: 600px;
+    bottom: 70px;
+    margin: 80px;
+}
+.apple1 {
+    position: relative;
+    margin: 20px 80px;
+    font-size: 20;
+    color: rgb(220, 220, 212);
+    bottom: 20px;
+}
+.apple2{
+    position: relative;
+    color: rgb(220, 220, 212);
+    font-size: 20;
+    bottom: 70px;
+    margin-left: 110px;
 
+}
+.apple3 {
+    position: relative;
+    width: 600px;
+    bottom: 90px;
+    margin: 80px;
+}
+/*this is next*/
+.apple4 {
+    position: relative;
+    margin: 20px 80px;
+    font-size: 20;
+    color: rgb(220, 220, 212);
+    bottom: 20px;
+}
+.apple5{
+    position: relative;
+    color: rgb(220, 220, 212);
+    font-size: 20;
+    bottom: 70px;
+    margin-left: 110px;
+
+}
+.apple6 {
+    position: relative;
+    width: 600px;
+    bottom: 90px;
+    margin: 80px;
+}
+/*this is next*/
+.apple7 {
+    position: relative;
+    margin: 20px 80px;
+    font-size: 20;
+    color: rgb(220, 220, 212);
+    bottom: 20px;
+}
+.apple8{
+    position: relative;
+    color: rgb(220, 220, 212);
+    font-size: 20;
+    bottom: 70px;
+    margin-left: 110px;
+
+}
+.apple9 {
+    position: relative;
+    width: 600px;
+    bottom: 90px;
+    margin: 80px;
+}
+/*this is next*/
+.box {
+    position: relative;
+    margin: 20px 80px;
+    font-size: 20;
+    color: rgb(220, 220, 212);
+    bottom: 20px;
+}
+.box2{
+    position: relative;
+    color: rgb(220, 220, 212);
+    font-size: 20;
+    bottom: 70px;
+    margin-left: 110px;
+
+}
+.box3 {
+    position: relative;
+    width: 600px;
+    bottom: 90px;
+    margin: 80px;
+}
+.box4 {
+    position: relative;
+    margin-left: 400px;
+    bottom: 400px;
+}
+.box5 {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(126, 123, 123);
+    bottom: 300px;
+}
+.box6 {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+    padding: 8px;
+    margin-left: 600px;
+    top: 100px;
+    text-align: center;
+    border: 5px solid yellow;
+    
+}
+.box7 {
+    position: relative;
+    color: aliceblue;
+    top: 100px;
+    margin-left: 500px;
+    font-size: 40;
+}
+.box8 {
+    position: relative;
+    color: aliceblue;
+    font-size: 20;
+    margin-left: 500px;
+    top: 100px;
+}
+.box9 {
+    position: relative;
+    color: aliceblue;
+    margin-left: 400px;
+    font-size: 30;
+}
+.boxes {
+    position: relative;
+    color: aliceblue;
+    margin-left: 1200px;
+    font-size: 30;
+}
+.script1 {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-color: #f5df4e;;
+    bottom: 300px;
+
+}
+.script2 {
+    position: relative;
+    margin-left: 60px;
+    top: 90px;
+}
+script3 {
+    position: relative;
+    
+    margin-left: 60px;
+}
+.script4 {
+    position: relative;
+    margin-left: 8px;
+}
+.script5 {
+    position: relative;
+    top: 150px;
+    font-size: 40;
+}
+.script6 {
+    position: relative;
+    margin-left: 800px;
+    bottom: 400px;
+}
+.script8 {
+    position: relative;
+    width: 400px;
+    color: rgb(90, 88, 86);
+}
+.scriptx {
+    position: relative;
+    width: 400px;
+    color: rgb(107, 106, 104);
+}
+.module2 {
+position: relative;
+width: 700px;
+top: 90px;
+}
+.module4 {
+    position: relative;
+    top: 200px;
+    width: 150px;
+    height: 30px;
+    font-size: 20;
+    background-color: black;
+    color: beige;
+    border: 5px solid black;
+}
+.module5 {
+    position: relative;
+    color: white;
+    font-size: 25;
+    top: 170px;
+    margin-left: 100px;
+}
+.module6 {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    bottom: 20px;
+    
+
+}
+.module7 {
+    position: relative;
+    color: aliceblue;
+    margin-bottom: 200px;
+    margin-left: 50px;
+
+}
+.module8 {
+    position: relative;
+    color: azure;
+    top: 350px;
+    margin-left: 90px;
+    
+}
+.module9 {
+    position: relative;
+    color: azure;
+    margin-left: 210px;
+    top: 136px;
+    
+    
+}
