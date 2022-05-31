@@ -21,25 +21,26 @@ body {
   }
   .facebook {
       position: relative;
-      font-size: 30;
+      font-size: 40px;
       padding-right: 5px;
-      left: 60px;
+      left: 90px;
       bottom: -9px;
       
   }
   .twitter{
     position: relative;
-    font-size: 30;
+    font-size: 50;
     padding-right: 5px;
     left: 99px;
-    bottom: 20px;
+    bottom: 0px;
+    margin-top: 5px;
   }
   .instagram {
     position: relative;
     font-size: 30;
     padding-right: 5px;
     left: 600px;
-    bottom: 48px;
+    top: 90px;
 
       
   }
@@ -95,9 +96,13 @@ body {
 }
 .arrow {
     position: relative;
-    left: -50px;
-    bottom: 180px;
+    margin-left: 710px;
+    bottom: 170px;
     
+}
+.arrow2 {
+    position: relative;
+    margin-left: 710px;
 }
 .roundedd {
 
@@ -119,6 +124,11 @@ body {
     border: 5px solid yellow;
     width: 90px;
     height: 30px;
+}
+.klab {
+    position: relative;
+    background-color: #f5df4e;
+    width: 90;
 }
 .pagee {
     padding-left: 80px;
@@ -188,7 +198,7 @@ body {
 .klab2 {
     position: relative;
     font-size: 50;
-    color: yellow;
+    color: rgb(229, 229, 13);
 }
 .page3 {
     position: relative;
@@ -483,6 +493,12 @@ color: yellow;
     margin: 80px;
 }
 /*this is next*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 .apple4 {
     position: relative;
     margin: 20px 80px;
@@ -505,6 +521,12 @@ color: yellow;
     margin: 80px;
 }
 /*this is next*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 .apple7 {
     position: relative;
     margin: 20px 80px;
@@ -562,12 +584,12 @@ color: yellow;
 }
 .box6 {
     position: relative;
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     background-color: yellow;
     padding: 8px;
     margin-left: 600px;
-    top: 100px;
+    top: 60px;
     text-align: center;
     border: 5px solid yellow;
     
@@ -601,7 +623,7 @@ color: yellow;
 .script1 {
     position: relative;
     width: 100%;
-    height: 750px;
+    height: 950px;
     background-color: #f5df4e;;
     bottom: 300px;
 
@@ -622,13 +644,13 @@ script3 {
 }
 .script5 {
     position: relative;
-    top: 150px;
+    top: 90px;
     font-size: 40;
 }
 .script6 {
     position: relative;
     margin-left: 800px;
-    bottom: 400px;
+    bottom: 300px;
 }
 .script8 {
     position: relative;
@@ -692,4 +714,81 @@ top: 90px;
     top: 136px;
     
     
+}
+/* this one */
+.min {
+ border-bottom-width: 5px solid yellow;
+    
+}
+/* about what i do*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.yego{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 28vh;
+    background: none; 
+}
+
+.wrapper{
+    display: flex;
+}
+.wrapper .static-txt{
+    color: rgb(13, 1, 1);
+    font-size: 60px;
+    font-weight: 5;
+}
+.wrapper .dynamic-txts{
+    margin-left: 30px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+.dynamic-txts li{
+    list-style: none;
+    color: #0c0b0b;
+    font-size: 60px;
+    position: relative;
+    top: 0;
+    animation: slide 19s steps(4) infinite;
+}
+@keyframes slide{
+    100%{
+        top: -360px;
+    }
+}
+/*.dynamic-txts li span{
+    position: relative;
+    margin: 5px 0;
+    line-height: 20px;
+}
+.dynamic-txts li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 5%;
+    background: black;
+    border-left: 1px solid #0f0e0e;
+    animation: typing 9s steps(10) infinite;
+}
+@keyframes typing{
+    40%, 60%{
+        left:calc(100% + 30px)
+    }
+    100%{
+        left: 0;
+    }
+}*/
+/* on the first paragraph*/
+.location {
+    position: relative;
+    bottom: 50px;
+    font-size: 20;
 }
